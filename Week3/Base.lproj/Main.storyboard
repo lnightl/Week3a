@@ -1,24 +1,1012 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="g8S-cz-6wT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Kamen Rider-->
+        <scene sceneID="xFq-zW-8nE">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="8bC-Xf-vdC">
+                <tableViewController id="Kh5-k0-S6m" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zoK-dm-60U">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection headerTitle="平成年代（新年代）" id="H5N-k2-0D9">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="ChN-i5-e5h">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ChN-i5-e5h" id="SG6-TA-YlF">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2000 假面騎士 空我" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v03-fP-RZy">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2000-Kuuga-logo" translatesAutoresizingMaskIntoConstraints="NO" id="PZg-Mj-2ty">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="NSF-10-zRw" kind="show" id="GdA-Kn-s5f"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="oCk-KJ-NYG">
+                                        <rect key="frame" x="0.0" y="175" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oCk-KJ-NYG" id="obo-eq-LNJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2001 假面騎士 AgitΩ" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IdV-Ze-ul9">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2001-Agito-logo" translatesAutoresizingMaskIntoConstraints="NO" id="lfo-1i-Jty">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="raf-Mr-6Nh" kind="show" id="4dn-J5-25S"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="lO7-fU-4f6">
+                                        <rect key="frame" x="0.0" y="322" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lO7-fU-4f6" id="iXx-Vw-9A5">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2002 假面騎士 龍騎" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7J5-a3-fFT">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2002-龍騎-logo" translatesAutoresizingMaskIntoConstraints="NO" id="Oa2-c2-ec7">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="XAB-V5-IiJ" kind="show" id="UyB-zC-l1g"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="CmJ-h6-aHb">
+                                        <rect key="frame" x="0.0" y="469" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CmJ-h6-aHb" id="RB5-Mq-qfL">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2003 假面騎士 555" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vj2-bm-xfa">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2003-Faiz-logo" translatesAutoresizingMaskIntoConstraints="NO" id="ff0-vp-09n">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="EJF-HS-j8W" kind="show" id="ej6-Zu-Ua6"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="Ndt-tW-4HN">
+                                        <rect key="frame" x="0.0" y="616" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ndt-tW-4HN" id="is8-ZC-YEA">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2004 假面騎士 劍" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NjR-RW-3GD">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2004-劍-logo" translatesAutoresizingMaskIntoConstraints="NO" id="U7k-oU-tQ1">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="zNR-kV-0qy" kind="show" id="Qam-7x-YWB"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="1Dr-An-dR5">
+                                        <rect key="frame" x="0.0" y="763" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1Dr-An-dR5" id="FQg-K1-jTg">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2005 假面騎士 響鬼" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K3D-Hx-jac">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2005-響鬼-logo" translatesAutoresizingMaskIntoConstraints="NO" id="iAT-pQ-pP5">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Sm8-NQ-7bd" kind="show" id="YIg-IA-r3t"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="efN-Tb-le8">
+                                        <rect key="frame" x="0.0" y="910" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="efN-Tb-le8" id="tCM-Ff-pfF">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2006 假面騎士 Kabuto" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKg-eN-sZH">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2006-Kabuto-logo" translatesAutoresizingMaskIntoConstraints="NO" id="6ld-Zy-fMd">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="x3a-ty-67u" kind="show" id="V9g-l9-eB8"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="JDZ-uW-lLe">
+                                        <rect key="frame" x="0.0" y="1057" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JDZ-uW-lLe" id="jQn-e1-O3w">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2007 假面騎士 電王" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVU-vx-Dmu">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2007-電王-logo" translatesAutoresizingMaskIntoConstraints="NO" id="L1p-3H-QsN">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="k9g-zB-QeS" kind="show" id="45d-co-Ju1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="jqa-NH-tJe">
+                                        <rect key="frame" x="0.0" y="1204" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jqa-NH-tJe" id="ume-YV-neC">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2008 假面騎士 Kiva" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gw4-dm-9Kn">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2008-Kiva-logo" translatesAutoresizingMaskIntoConstraints="NO" id="sjY-wl-B5W">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="4nD-SO-8zt" kind="show" id="Keh-Rt-szU"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="bnQ-nq-QLk">
+                                        <rect key="frame" x="0.0" y="1351" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bnQ-nq-QLk" id="4Ys-hv-985">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2009 假面騎士 Decade" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gS-fW-5Gu">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2009-Decade-logo" translatesAutoresizingMaskIntoConstraints="NO" id="eo1-6y-plX">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="cyG-8n-QVY" kind="show" id="D73-g6-2ee"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="平成新十年" id="Xfl-Va-KYS">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="9nW-1r-Goq">
+                                        <rect key="frame" x="0.0" y="1526" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9nW-1r-Goq" id="Puh-xJ-7Sh">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2010 W" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Re2-XO-GLq">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2010-W-logo" translatesAutoresizingMaskIntoConstraints="NO" id="wBs-vW-Y5h">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="KdO-1t-GoZ" kind="show" id="hSK-z2-b70"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="S4w-rV-Z74">
+                                        <rect key="frame" x="0.0" y="1673" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="S4w-rV-Z74" id="Va2-w4-91f">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2011 OOO" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vj8-js-ySK">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2011-OOO-logo" translatesAutoresizingMaskIntoConstraints="NO" id="PQq-12-kPX">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="zy9-lv-cRL" kind="show" id="2Kc-pm-aui"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="mH6-4U-vVc">
+                                        <rect key="frame" x="0.0" y="1820" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mH6-4U-vVc" id="BqS-sC-dGN">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2012 假面騎士 Fourze" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ewh-ox-8kb">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2012-Fourze-logo" translatesAutoresizingMaskIntoConstraints="NO" id="f2L-ND-q0S">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="xjC-v8-BaX" kind="show" id="dlx-q8-NjD"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="fRb-mb-ACh">
+                                        <rect key="frame" x="0.0" y="1967" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fRb-mb-ACh" id="SNf-xd-Oi0">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2013 假面騎士 Wizard" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRh-dQ-LMK">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2013-Wizard-logo" translatesAutoresizingMaskIntoConstraints="NO" id="SB7-nN-bil">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="sN8-PG-vYP" kind="show" id="f3P-xZ-eDm"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="SAW-Pa-aMP">
+                                        <rect key="frame" x="0.0" y="2114" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SAW-Pa-aMP" id="BYj-XT-jBa">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2014 假面騎士 鎧武" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ta-U5-WeX">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2014-鎧武-logo" translatesAutoresizingMaskIntoConstraints="NO" id="SNj-YM-dtp">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ytN-YL-OI5" kind="show" id="4dP-sB-pOW"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="fG6-Wh-F16">
+                                        <rect key="frame" x="0.0" y="2261" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fG6-Wh-F16" id="PTB-x1-POV">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2015 假面騎士 Drive" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2X-fG-UMk">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2015-Drive-logo" translatesAutoresizingMaskIntoConstraints="NO" id="W5q-4W-6kl">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="V4u-B9-iZF" kind="show" id="faB-UZ-M8S"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="BOP-uA-xQz">
+                                        <rect key="frame" x="0.0" y="2408" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BOP-uA-xQz" id="akJ-wd-cZ6">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2016 假面騎士 Ghost" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HJO-hv-VmW">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2016-Ghost-logo" translatesAutoresizingMaskIntoConstraints="NO" id="Dd3-hG-ucu">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="9YI-m8-LBi" kind="show" id="T7n-Fb-EgI"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="FrY-Ql-Gzl">
+                                        <rect key="frame" x="0.0" y="2555" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FrY-Ql-Gzl" id="wXz-5a-ciQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2017 假面騎士 Amazons" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmY-xN-BAV">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2017-Amazons-logo" translatesAutoresizingMaskIntoConstraints="NO" id="U0Y-Wr-pYf">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="0qs-tb-8i3" kind="show" id="g80-nb-ZRz"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="147" id="4Z1-ZI-023">
+                                        <rect key="frame" x="0.0" y="2702" width="375" height="147"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4Z1-ZI-023" id="wdn-6R-oGN">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="146.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2017 假面騎士 EX-AID" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfh-Bp-hUv">
+                                                    <rect key="frame" x="14" y="36" width="96" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2017-EX-AID-logo" translatesAutoresizingMaskIntoConstraints="NO" id="iip-i5-Q0W">
+                                                    <rect key="frame" x="118" y="17" width="219" height="113"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="9Gg-v9-C6b" kind="show" id="ge5-b5-bPu"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Kh5-k0-S6m" id="1qp-dw-eCf"/>
+                            <outlet property="delegate" destination="Kh5-k0-S6m" id="Gws-qZ-X5a"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Kamen Rider" id="unO-zO-cpK"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DbC-x2-ijJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1079" y="721"/>
+        </scene>
+        <!--仮面ライダー クウガ-->
+        <scene sceneID="66M-3F-Qgy">
+            <objects>
+                <viewController id="NSF-10-zRw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="kJZ-Gc-DMh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2000-Kuuga" translatesAutoresizingMaskIntoConstraints="NO" id="qpk-J1-zBu">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="4Ca-pc-1n3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー クウガ" id="FAv-Gx-H6f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PJj-uo-nmn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1952.8" y="-362.06896551724139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="05g-lb-Wea">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g8S-cz-6wT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="v2m-o8-UD2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Kh5-k0-S6m" kind="relationship" relationship="rootViewController" id="ck9-1x-MUF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ow6-Gy-AHw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="94" y="720"/>
+        </scene>
+        <!--仮面ライダー Decade-->
+        <scene sceneID="yNK-6W-cuy">
+            <objects>
+                <viewController id="cyG-8n-QVY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="d4G-79-KqX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2009-Decade" translatesAutoresizingMaskIntoConstraints="NO" id="K49-kk-gpT">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="LnW-zJ-UhA"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー Decade" id="lnO-Yg-Fff"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ns-HX-XsR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4942" y="340"/>
+        </scene>
+        <!--仮面ライダー キバ-->
+        <scene sceneID="hvC-x3-iNP">
+            <objects>
+                <viewController id="4nD-SO-8zt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="kPS-qf-fpl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2008-Kiva" translatesAutoresizingMaskIntoConstraints="NO" id="XJE-iI-KyH">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="XqS-3z-Uu6"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー キバ" id="9ta-sj-HX8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kMu-Ej-OIi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4214" y="340"/>
+        </scene>
+        <!--仮面ライダー 電王-->
+        <scene sceneID="eQM-4w-Bvm">
+            <objects>
+                <viewController id="k9g-zB-QeS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="2RQ-Qx-BmX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2007-電王" translatesAutoresizingMaskIntoConstraints="NO" id="bGi-ji-Cdx">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="GGH-wP-NIm"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー 電王" id="8Wl-HC-aX8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5sU-hG-mgn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3449" y="340"/>
+        </scene>
+        <!--仮面ライダー カブト-->
+        <scene sceneID="QWv-kv-2wD">
+            <objects>
+                <viewController id="x3a-ty-67u" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="que-63-0Le">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2006-Kabuto" translatesAutoresizingMaskIntoConstraints="NO" id="5Pa-Qn-Eu5">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Bw5-Xe-SdL"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー カブト" id="bpz-7B-ouH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J3X-ib-iOs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2689" y="340"/>
+        </scene>
+        <!--仮面ライダー 響鬼-->
+        <scene sceneID="gJH-Um-fty">
+            <objects>
+                <viewController id="Sm8-NQ-7bd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="3b9-OW-eIC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2005-響鬼" translatesAutoresizingMaskIntoConstraints="NO" id="F1z-kb-WWZ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="w9G-HH-HAL"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー 響鬼" id="1k7-aU-Svo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bYL-5O-LK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1953" y="340"/>
+        </scene>
+        <!--仮面ライダー 劍-->
+        <scene sceneID="GwD-1g-dmF">
+            <objects>
+                <viewController id="zNR-kV-0qy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="XOw-P8-7ye">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2004-劍" translatesAutoresizingMaskIntoConstraints="NO" id="t3V-qe-hxQ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Uk2-L0-cil"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー 劍" id="wLa-tK-CQJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iMF-UL-wzQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4943" y="-362"/>
+        </scene>
+        <!--仮面ライダー 555-->
+        <scene sceneID="FTa-Yc-UBk">
+            <objects>
+                <viewController id="EJF-HS-j8W" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="KOT-ZW-KnF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2003-Faiz" translatesAutoresizingMaskIntoConstraints="NO" id="ePb-87-Bve">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="yuB-ia-5WQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー 555" id="tbe-QV-z6X"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9TV-zF-pD2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4214" y="-362"/>
+        </scene>
+        <!--仮面ライダー 龍騎-->
+        <scene sceneID="EVK-21-Dns">
+            <objects>
+                <viewController id="XAB-V5-IiJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="z6k-Jb-s8F">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2002-龍騎" translatesAutoresizingMaskIntoConstraints="NO" id="5QM-Ec-rwp">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="gLf-KG-2Of"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー 龍騎" id="tRt-uz-TPF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dqy-SD-9Lj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3449" y="-362"/>
+        </scene>
+        <!--仮面ライダー AgitΩ-->
+        <scene sceneID="9Cm-NQ-yDG">
+            <objects>
+                <viewController id="raf-Mr-6Nh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="UNK-HI-DrD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2001-Agito" translatesAutoresizingMaskIntoConstraints="NO" id="O0u-fh-MvB">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="1w7-oz-tkx"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー AgitΩ" id="VlE-Im-KjP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v9k-HW-CzI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2690" y="-362"/>
+        </scene>
+        <!--仮面ライダー Ｗ-->
+        <scene sceneID="q5k-hK-fx8">
+            <objects>
+                <viewController id="KdO-1t-GoZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="wjQ-p3-NHx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2010-W" translatesAutoresizingMaskIntoConstraints="NO" id="rLV-so-3uv">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="slQ-1A-kSM"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー Ｗ" id="LEi-jO-uMQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kjQ-B4-ISf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1953" y="1114"/>
+        </scene>
+        <!--仮面ライダー EX-AID-->
+        <scene sceneID="uYh-LX-iSD">
+            <objects>
+                <viewController id="9Gg-v9-C6b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="5CO-KC-xqf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2017-EX-AID" translatesAutoresizingMaskIntoConstraints="NO" id="rdD-hu-IP9">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="YlR-0Q-9Hv"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー EX-AID" id="pge-Sm-Ykd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pxi-VH-C5S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4214" y="1819"/>
+        </scene>
+        <!--仮面ライダー Amazons-->
+        <scene sceneID="Yqj-NT-Bni">
+            <objects>
+                <viewController id="0qs-tb-8i3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="7jg-bi-gXA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2017-Amazons1" translatesAutoresizingMaskIntoConstraints="NO" id="dDg-Zp-EOy">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="lW8-pg-3Ju"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー Amazons" id="SRc-9z-j9C"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AMA-Ox-DB6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3449" y="1819"/>
+        </scene>
+        <!--仮面ライダー Ghost-->
+        <scene sceneID="Qse-37-XxH">
+            <objects>
+                <viewController id="9YI-m8-LBi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="s4y-3V-yrr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2016-Ghost" translatesAutoresizingMaskIntoConstraints="NO" id="A46-Kg-pam">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="JAt-Ue-4ZY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー Ghost" id="84I-gh-Kai"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="39i-0a-ryc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2689" y="1819"/>
+        </scene>
+        <!--仮面ライダー Drive-->
+        <scene sceneID="mPn-mu-1Gt">
+            <objects>
+                <viewController id="V4u-B9-iZF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="QXL-78-Cz5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2015-Drive" translatesAutoresizingMaskIntoConstraints="NO" id="Qqp-Es-Lkl">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="dj0-1u-xFo"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー Drive" id="642-yT-taN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fZZ-U0-Xzg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1953" y="1820"/>
+        </scene>
+        <!--仮面ライダー 鎧武-->
+        <scene sceneID="foc-Vg-H0y">
+            <objects>
+                <viewController id="ytN-YL-OI5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="pzv-mv-hw1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2014-鎧武" translatesAutoresizingMaskIntoConstraints="NO" id="NWf-AF-3xF">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="ibR-V7-F8h"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー 鎧武" id="qbs-hK-wrC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YKL-uf-Tji" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4942" y="1111"/>
+        </scene>
+        <!--仮面ライダー Wizard-->
+        <scene sceneID="HtD-PT-BhV">
+            <objects>
+                <viewController id="sN8-PG-vYP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="9IU-ne-vfE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2013-Wizard" translatesAutoresizingMaskIntoConstraints="NO" id="6sn-Y6-Yn2">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="IEH-RR-G8z"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー Wizard" id="MYb-Sf-zxA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d8O-m0-pdL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4214" y="1112"/>
+        </scene>
+        <!--仮面ライダー Fourze-->
+        <scene sceneID="Fwq-jr-rSu">
+            <objects>
+                <viewController id="xjC-v8-BaX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="pNG-kO-Nyt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2012-Fourze" translatesAutoresizingMaskIntoConstraints="NO" id="0xz-OC-2dd">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="89y-Oe-fOR"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー Fourze" id="Pto-UP-y60"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s7W-Rz-kgS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3449" y="1113"/>
+        </scene>
+        <!--仮面ライダー OOO-->
+        <scene sceneID="MQj-4T-Wrc">
+            <objects>
+                <viewController id="zy9-lv-cRL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="qyQ-if-mUC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2011-OOO" translatesAutoresizingMaskIntoConstraints="NO" id="I3a-Rc-13p">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Zcj-Iu-XWw"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仮面ライダー OOO" id="8Hy-jg-GQb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xhC-ox-e44" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2689" y="1113"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="2000-Kuuga" width="1600" height="1200"/>
+        <image name="2000-Kuuga-logo" width="700" height="436"/>
+        <image name="2001-Agito" width="1920" height="1200"/>
+        <image name="2001-Agito-logo" width="223" height="116"/>
+        <image name="2002-龍騎" width="1600" height="1200"/>
+        <image name="2002-龍騎-logo" width="265" height="116"/>
+        <image name="2003-Faiz" width="1920" height="1200"/>
+        <image name="2003-Faiz-logo" width="385" height="93"/>
+        <image name="2004-劍" width="1600" height="1200"/>
+        <image name="2004-劍-logo" width="550" height="250"/>
+        <image name="2005-響鬼" width="1600" height="1200"/>
+        <image name="2005-響鬼-logo" width="206" height="114"/>
+        <image name="2006-Kabuto" width="1920" height="1200"/>
+        <image name="2006-Kabuto-logo" width="224" height="107"/>
+        <image name="2007-電王" width="1920" height="1200"/>
+        <image name="2007-電王-logo" width="1109" height="365"/>
+        <image name="2008-Kiva" width="1131" height="707"/>
+        <image name="2008-Kiva-logo" width="312" height="145"/>
+        <image name="2009-Decade" width="1032" height="774"/>
+        <image name="2009-Decade-logo" width="400" height="243"/>
+        <image name="2010-W" width="1600" height="1200"/>
+        <image name="2010-W-logo" width="516" height="270"/>
+        <image name="2011-OOO" width="1600" height="1200"/>
+        <image name="2011-OOO-logo" width="288" height="75"/>
+        <image name="2012-Fourze" width="1600" height="1200"/>
+        <image name="2012-Fourze-logo" width="490" height="230"/>
+        <image name="2013-Wizard" width="1920" height="1200"/>
+        <image name="2013-Wizard-logo" width="500" height="247"/>
+        <image name="2014-鎧武" width="1600" height="1200"/>
+        <image name="2014-鎧武-logo" width="500" height="260"/>
+        <image name="2015-Drive" width="600" height="600"/>
+        <image name="2015-Drive-logo" width="413" height="155"/>
+        <image name="2016-Ghost" width="436" height="517"/>
+        <image name="2016-Ghost-logo" width="1280" height="362"/>
+        <image name="2017-Amazons-logo" width="400" height="200"/>
+        <image name="2017-Amazons1" width="674" height="748"/>
+        <image name="2017-EX-AID" width="800" height="800"/>
+        <image name="2017-EX-AID-logo" width="1024" height="378"/>
+    </resources>
 </document>
