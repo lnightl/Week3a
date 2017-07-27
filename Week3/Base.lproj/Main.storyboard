@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Kamen Rider-->
+        <!--仮面ライダー-->
         <scene sceneID="xFq-zW-8nE">
             <objects>
                 <tableViewController id="Kh5-k0-S6m" sceneMemberID="viewController">
@@ -507,7 +507,7 @@
                             <outlet property="delegate" destination="Kh5-k0-S6m" id="Gws-qZ-X5a"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Kamen Rider" id="unO-zO-cpK"/>
+                    <navigationItem key="navigationItem" title="仮面ライダー" id="unO-zO-cpK"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DbC-x2-ijJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
